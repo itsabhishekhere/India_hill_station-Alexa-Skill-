@@ -1,0 +1,74 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "india hill station",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "playerBio",
+                    "slots": [
+                        {
+                            "name": "player",
+                            "type": "playerNames"
+                        }
+                    ],
+                    "samples": [
+                        "About {player}",
+                        "{player}",
+                        "tell me about {player}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "playerNames",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Leh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gangtok"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Manali"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pahalgam"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
